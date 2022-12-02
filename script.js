@@ -1,3 +1,4 @@
+/*
 let js = "amazing";
 console.log(40 + 8 + 23 - 10);
 
@@ -24,3 +25,23 @@ let continent = "Europe";
 let population = "37m";
 
 console.log(country, continent, population);
+*/
+
+// Boolean values
+let javascriptIsFun = true;
+console.log(javascriptIsFun);
+
+// Typeof 
+// console.log(typeof true);
+console.log(typeof javascriptIsFun);
+// console.log(typeof 23);
+// console.log(typeof 'Nick');
+
+// Reassign the value of variable
+javascriptIsFun = "YES!";
+console.log(typeof javascriptIsFun);
+
+// Undefined example
+let year;
+console.log(year);
+console.log(typeof year);

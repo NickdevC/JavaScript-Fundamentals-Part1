@@ -45,3 +45,10 @@ console.log(typeof javascriptIsFun);
 let year;
 console.log(year);
 console.log(typeof year);
+
+// Example of dynamic typing
+year = 1991;
+console.log(typeof year);
+
+// Example of error with typeof (displays as an object) - a known bug!
+console.log(typeof null);

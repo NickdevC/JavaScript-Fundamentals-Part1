@@ -100,5 +100,9 @@ x--; // x = x - 1 = 100
 console.log(x);
 
 // Comparison operators - which produce boolean values
-console.log(ageNick > ageSarah);
+console.log(ageNick > ageSarah); // >, <, >=, <=
+console.log(ageSarah >= 18);
 
+const isFullAge = ageSarah >= 18;
+
+console.log(currentYear - 1991 > currentYear - 2010);

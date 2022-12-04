@@ -127,3 +127,16 @@ console.log(ageNick, ageSarah, averageAge);
 */
 
 ////////////////// Coding Challenge #1
+
+const massMark = 78;
+const massJohn = 92;
+const heightMark = 1.69;
+const heightJohn = 1.95;
+
+const markBMI = massMark / heightMark ** 2;
+const johnBMI = massJohn / heightJohn ** 2;
+
+console.log(markBMI, johnBMI);
+
+const markHigherBMI = markBMI > johnBMI;
+console.log(markHigherBMI);

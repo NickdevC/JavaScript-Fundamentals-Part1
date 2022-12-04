@@ -58,5 +58,13 @@ console.log(typeof null);
 let age = 30;
 age = 31;
 
+// Const is an imutible variable - throws up an error when reassigned
 const birthYear = 1991;
-birthYear = 1990;
+
+// Var as a legacy declaration
+var job = "programmer";
+job = "teacher";
+
+// Example of creating a variable without declaring it - BAD idea!
+lastName = "Coles";
+console.log(lastName);

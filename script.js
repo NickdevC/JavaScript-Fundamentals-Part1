@@ -77,7 +77,20 @@ console.log(lastName);
 
 /////////////////// Basic Operators
 
-const ageNick = 2022 - 1988;
-const ageSarah = 2022 - 2010;
+// Simple math operator - displaying the need for variable within operation
+const currentYear = 2022;
+const ageNick = currentYear - 1988;
+const ageSarah = currentYear - 2010;
 console.log(ageNick, ageSarah);
 
+// 2 ** 3 means 2 to the power of 3 = 2 * 2 * 2
+console.log(ageNick * 2, ageNick / 10, 2 ** 3);
+
+// Concatinating strings using the +
+const firstName = "Nick";
+const lastName = "Coles";
+console.log(firstName + " " + lastName);
+
+// Assignment operators - the = sign
+let x = 10 + 5;
+console.log(x);

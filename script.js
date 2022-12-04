@@ -92,5 +92,13 @@ const lastName = "Coles";
 console.log(firstName + " " + lastName);
 
 // Assignment operators - the = sign
-let x = 10 + 5;
+let x = 10 + 5; // 15
+x += 10; // x = x + 10 = 25
+x *= 4; // x = x * 4 = 100
+x++; // x = x + 1 = 101
+x--; // x = x - 1 = 100
 console.log(x);
+
+// Comparison operators - which produce boolean values
+console.log(ageNick > ageSarah);
+

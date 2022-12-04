@@ -1,4 +1,7 @@
 /*
+
+////////////////////// Values and Variables
+
 let js = "amazing";
 console.log(40 + 8 + 23 - 10);
 
@@ -26,6 +29,7 @@ let population = "37m";
 
 console.log(country, continent, population);
 
+////////////////////// Data Types
 
 // Boolean values
 let javascriptIsFun = true;
@@ -52,7 +56,8 @@ console.log(typeof year);
 
 // Example of error with typeof (displays as an object) - a known bug!
 console.log(typeof null);
-*/
+
+/////////////////////// Let, const and var
 
 // Reassign or mutate a variable
 let age = 30;
@@ -68,3 +73,11 @@ job = "teacher";
 // Example of creating a variable without declaring it - BAD idea!
 lastName = "Coles";
 console.log(lastName);
+*/
+
+/////////////////// Basic Operators
+
+const ageNick = 2022 - 1988;
+const ageSarah = 2022 - 2010;
+console.log(ageNick, ageSarah);
+

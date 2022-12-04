@@ -25,7 +25,7 @@ let continent = "Europe";
 let population = "37m";
 
 console.log(country, continent, population);
-*/
+
 
 // Boolean values
 let javascriptIsFun = true;
@@ -52,3 +52,11 @@ console.log(typeof year);
 
 // Example of error with typeof (displays as an object) - a known bug!
 console.log(typeof null);
+*/
+
+// Reassign or mutate a variable
+let age = 30;
+age = 31;
+
+const birthYear = 1991;
+birthYear = 1990;

@@ -106,7 +106,7 @@ console.log(ageSarah >= 18);
 const isFullAge = ageSarah >= 18;
 
 console.log(currentYear - 1991 > currentYear - 2010);
-*/
+
 
 /////////////////////// Operator Precedence
 
@@ -121,5 +121,9 @@ let x, y;
 x = y = 25 - 10 - 5; // x = y = 10, x = 10
 console.log(x, y);
 
+// Example of highest precedence using ()
 const averageAge = (ageNick + ageSarah) / 2;
 console.log(ageNick, ageSarah, averageAge);
+*/
+
+////////////////// Coding Challenge #1

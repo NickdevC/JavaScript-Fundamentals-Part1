@@ -73,7 +73,7 @@ job = "teacher";
 // Example of creating a variable without declaring it - BAD idea!
 lastName = "Coles";
 console.log(lastName);
-*/
+
 
 /////////////////// Basic Operators
 
@@ -106,3 +106,20 @@ console.log(ageSarah >= 18);
 const isFullAge = ageSarah >= 18;
 
 console.log(currentYear - 1991 > currentYear - 2010);
+*/
+
+/////////////////////// Operator Precedence
+
+const currentYear = 2022;
+const ageNick = currentYear - 1988;
+const ageSarah = currentYear - 2010;
+
+console.log(currentYear - 1991 > currentYear - 2010);
+
+// Evaluating from right-to-left with the = assignment operator
+let x, y;
+x = y = 25 - 10 - 5; // x = y = 10, x = 10
+console.log(x, y);
+
+const averageAge = (ageNick + ageSarah) / 2;
+console.log(ageNick, ageSarah, averageAge);

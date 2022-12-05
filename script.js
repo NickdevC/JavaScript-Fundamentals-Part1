@@ -175,3 +175,13 @@ if(age >= 18) {
     const yearsLeft = 18 - age;
     console.log(`Sarah is too young. Wait another ${yearsLeft} years`);
 }
+
+// If / else statement including declaring a variable outside the code block
+const birthYear = 1988;
+let century = "";
+if(birthYear <= 2000) {
+    century = 20;
+} else {
+    century = 21;
+}
+console.log(century);

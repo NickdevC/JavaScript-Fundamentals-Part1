@@ -154,3 +154,13 @@ console.log(nick);
 // Using a template literal
 const nickNew = `I'm ${firstName}, a ${currentYear - birthYear} years old ${job}!`;
 console.log(nickNew);
+
+// Multiline strings (before ES6)
+console.log("String with \n\
+multiple \n\
+lines");
+
+// Multiline string using template literals
+console.log(`String
+multiple
+lines`);

@@ -164,7 +164,7 @@ lines");
 console.log(`String
 multiple
 lines`);
-*/
+
 
 ///////////////////// Taking Decisions: if / else Statements
 const age = 15;
@@ -185,3 +185,19 @@ if(birthYear <= 2000) {
     century = 21;
 }
 console.log(century);
+*/
+
+///////////////////// Coding Challenge #2
+const massMark = 78;
+const massJohn = 92;
+const heightMark = 1.69;
+const heightJohn = 1.95;
+
+const markBMI = massMark / heightMark ** 2;
+const johnBMI = massJohn / heightJohn ** 2;
+
+if(markBMI > johnBMI) {
+    console.log(`Mark's BMI (${markBMI}) is higher than John's (${johnBMI})!`);
+} else {
+    console.log(`John's BMI (${johnBMI}) is higher than Mark's (${markBMI})!`);
+}

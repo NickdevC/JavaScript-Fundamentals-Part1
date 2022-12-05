@@ -124,7 +124,7 @@ console.log(x, y);
 // Example of highest precedence using ()
 const averageAge = (ageNick + ageSarah) / 2;
 console.log(ageNick, ageSarah, averageAge);
-*/
+
 
 ////////////////// Coding Challenge #1
 
@@ -140,3 +140,9 @@ console.log(markBMI, johnBMI);
 
 const markHigherBMI = markBMI > johnBMI;
 console.log(markHigherBMI);
+*/
+
+////////////////// Strings and Temperal Literals
+const firstName = "Nick";
+const job = "teacher";
+const birthYear = 1988;

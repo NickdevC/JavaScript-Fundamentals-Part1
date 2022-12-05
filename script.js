@@ -146,3 +146,7 @@ console.log(markHigherBMI);
 const firstName = "Nick";
 const job = "teacher";
 const birthYear = 1988;
+const currentYear = 2022;
+
+const nick = "I'm " + firstName + ", a " + (currentYear - birthYear) + " years old " + job + "!";
+console.log(nick);

@@ -140,7 +140,7 @@ console.log(markBMI, johnBMI);
 
 const markHigherBMI = markBMI > johnBMI;
 console.log(markHigherBMI);
-*/
+
 
 ////////////////// Strings and Template Literals
 const firstName = "Nick";
@@ -164,3 +164,14 @@ lines");
 console.log(`String
 multiple
 lines`);
+*/
+
+///////////////////// Taking Decisions: if / else Statements
+const age = 15;
+
+if(age >= 18) {
+    console.log("Sarah can start her driving license 🚗");
+} else {
+    const yearsLeft = 18 - age;
+    console.log(`Sarah is too young. Wait another ${yearsLeft} years`);
+}

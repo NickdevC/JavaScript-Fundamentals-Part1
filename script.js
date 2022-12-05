@@ -142,7 +142,7 @@ const markHigherBMI = markBMI > johnBMI;
 console.log(markHigherBMI);
 */
 
-////////////////// Strings and Temperal Literals
+////////////////// Strings and Template Literals
 const firstName = "Nick";
 const job = "teacher";
 const birthYear = 1988;
@@ -150,3 +150,7 @@ const currentYear = 2022;
 
 const nick = "I'm " + firstName + ", a " + (currentYear - birthYear) + " years old " + job + "!";
 console.log(nick);
+
+// Using a template literal
+const nickNew = `I'm ${firstName}, a ${currentYear - birthYear} years old ${job}!`;
+console.log(nickNew);
